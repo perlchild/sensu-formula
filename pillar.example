@@ -2,7 +2,7 @@ sensu:
   lookup:
     repos:
       name: deb http://repositories.sensuapp.org/apt sensu main
-      key_url: http://repositories.sensuapp.org/apt/pubkey.gpg
+      key_url: https://repositories.sensuapp.org/apt/pubkey.gpg
   server:
     install_gems:
       - mail
